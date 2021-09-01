@@ -1,0 +1,9 @@
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"name":"Any One","date":"2007-12-03T10:15:30","city":"New Jersey"}' \
+  http://localhost:8008/visits
+
+
+curl http://localhost:8008/visits
+
+curl http://localhost:8008/statistics
